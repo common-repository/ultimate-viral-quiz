@@ -1,0 +1,133 @@
+.uvq-pager {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+    display: block;
+    clear: both;
+    text-align: center;
+
+    &:before {
+        content: '';
+        display: block;
+        clear: both;
+        height: 30px;
+    }
+
+    a,
+    span {
+        font-size: 14px;
+        padding: 5px 7px;
+    }
+}
+
+// .bb-embed {
+//     width: 100%;
+//     margin: 32px 0;
+//     border-radius: 2px;
+//     background-color: #f6f6f6;
+//     border: solid 1px #d9d9d9;
+//     padding: 8px 10px;
+// 
+//     input {
+//         padding: 5px 9px;
+//         color: #888;
+//         border-radius: 3px;
+//         border: 1px solid #ccc;
+//     }
+// 
+//     p {
+//         font-weight: bold;
+//     }
+// }
+
+div.uvq-locker-wrapper {
+    width: 100%;
+    margin: 32px 0;
+    text-align: center;
+    border-radius: 2px;
+    background-color: #f6f6f6;
+    border: solid 1px #d9d9d9;
+    padding: 0 8px 10px;
+}
+
+div.uvq-locker-headline {
+    color: #151515;
+    font-size: 26px;
+    line-height: 1.23;
+    margin: 16px 0 8px;
+}
+
+div.uvq-locker-copy {
+    color: #151515;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 16px;
+    padding: 0 8px;
+}
+
+.uvq-locker-share {
+    text-align: center;
+}
+
+.uvq-locker-share a.uvq-locker-share-link {
+    display: inline-block;
+    margin: 0 8px 8px;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    width: calc(50% - 30px);
+    min-width: 87px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10pt;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: none;
+    border-radius: 2px;
+    border-bottom: none;
+    line-height: 1.43;
+}
+
+a.uvq-locker-share-link.wide {
+    width: calc(100% - 16px);
+}
+
+.uvq-locker-share a.uvq-locker-share-link:hover {
+    opacity: 0.8;
+}
+
+.uvq-locker-icon {
+    margin-right: -26px;
+    position: relative;
+    top: 1px;
+    left: 4px;
+}
+
+.uvq-locker-share-link svg {
+    float: left;
+}
+
+.uvq-locker-share-name {
+    text-align: center;
+}
+
+#uvq-locker-share-link-twitter {
+    background-color: #5bc3ee;
+}
+
+#uvq-locker-share-link-facebook {
+    background-color: #386497;
+}
+
+#uvq-locker-share-link-email {
+    background-color: #2a91fb;
+}
+
+#uvq-locker-share-link-pinterest {
+    background-color: #b81621;
+}
+
+.uvq-force-share .uvq-locker-content {
+    display: none;
+}

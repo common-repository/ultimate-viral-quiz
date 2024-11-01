@@ -1,0 +1,76 @@
+@import "mixin";
+// Font
+$font-all: 'Roboto', sans-serif;
+
+$font-main-menu: 'Oswald', sans-serif;
+$font-sub-menu: 'Oswald', sans-serif;
+
+$font-ghost-button: 'Oswald', sans-serif;
+
+$font-heading: 'Fjalla One', sans-serif;
+
+$font-carousel: 'Oswald', sans-serif;
+$font-panel-heading: 'Oswald', sans-serif;
+$font-create-button: 'Oswald', sans-serif;
+
+// Color
+$color-white: #fff;
+$color-black: #000;
+// Blue
+$color-peter-river: #4aa3df;
+$color-belize-hole: #2980b9;
+// Red
+$color-alizarin: #e74c3c;
+$color-pomegranate: #c0392b;
+// Green
+$color-emerland: #2ecc71;
+$color-nephritis: #27ae60;
+
+$color-turquoise: #1abc9c;
+$color-green-sea: #16a085;
+// Etc
+$color-amethyst: #9b59b6;
+$color-wisteria: #8e44ad;
+
+$color-wet-asphalt: #34495e;
+$color-midnight-blue: #2c3e50;
+
+$color-sun-flower: #f1c40f;
+$color-orange: #f39c12;
+
+$color-carrot: #e67e22;
+$color-pumpkin: #d35400;
+
+$color-clouds: #ecf0f1;
+$color-silver: #bdc3c7;
+
+$color-concrete: #95a5a6;
+$color-asbestos: #7f8c8d;
+
+// Extend
+%transition_2s_ease {
+  transition: all .2s ease
+}
+%transition_transform_4s_ease {
+  transition: all .4s ease
+}
+@import "editor/col";
+@import "editor/editor";
+@import "editor/components";
+@import "editor/jsCrop";
+@import "editor/themify-icons";
+@import "editor/angularjs-switch";
+@import "editor/fuelux";
+
+.dbuzz-form-container p.lead {
+  margin-bottom: 20px;
+  line-height: 1.6em;
+  color: #999;
+  font-size: 13px;
+}
+.dbuzz-form-container img.avatar {
+	margin-bottom: 10px;
+	max-width: 150px;
+	min-width: 100px;
+	min-height: 100px;
+}
